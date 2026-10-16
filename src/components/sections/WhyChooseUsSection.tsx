@@ -48,9 +48,9 @@ export function WhyChooseUsSection() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#F7F3EC] tracking-tight">
             Why Choose {BUSINESS_INFO.name}?
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-[#E8DED0]/80 font-light">
-            A hardworking local team focused on honest communication, reliable woodwork, and turning
-            your ideas into practical, beautiful spaces.
+          <p className="mt-4 text-base sm:text-lg text-[#E8DED0]/80 font-light leading-relaxed">
+            Led by Sanjaykumar Suryawanshi, Ocean Kitchen &amp; Interior brings 20+ years of hands-on
+            experience and a 101% commitment to every project.
           </p>
         </div>
 

@@ -35,9 +35,15 @@ export function Footer() {
               Complete interior solutions, furniture work, and custom woodwork in Dhayari, Pune.
               Bringing your ideas to life with 20+ years of dedicated, hardworking craftsmanship.
             </p>
-            <div className="pt-2 flex items-center gap-2.5 text-xs text-[#C46A3A] font-medium tracking-wide">
-              <span className="w-2 h-2 rounded-full bg-[#C46A3A] inline-block animate-pulse" />
-              <span>20+ Years of Craftsmanship • Dhayari, Pune</span>
+            <div className="pt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
+              <span className="text-[#C46A3A] font-medium flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-[#C46A3A] inline-block animate-pulse" />
+                20+ Years of Craftsmanship • Dhayari, Pune
+              </span>
+              <span className="text-white/20 hidden sm:inline">•</span>
+              <span className="text-[#E8DED0]/65 font-light">
+                Owned by Sanjaykumar Suryawanshi
+              </span>
             </div>
           </div>
 

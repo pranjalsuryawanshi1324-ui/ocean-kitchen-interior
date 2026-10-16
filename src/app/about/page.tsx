@@ -114,6 +114,33 @@ export default function AboutPage() {
           </div>
         </div>
 
+        {/* Meet the Owner */}
+        <div className="bg-white border border-[#E8DED0] rounded-3xl p-8 sm:p-11 mb-12 card-elevation">
+          <span className="text-xs font-semibold tracking-widest uppercase text-[#C46A3A] mb-2.5 block">
+            Leadership
+          </span>
+          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#171717] tracking-tight mb-4">
+            Meet the Owner
+          </h2>
+          <p className="text-base sm:text-lg text-[#171717]/80 leading-relaxed font-light mb-6 max-w-3xl">
+            Ocean Kitchen &amp; Interior is led by Sanjaykumar Suryawanshi, whose hands-on experience and
+            commitment to quality have helped shape the business over 20+ years.
+          </p>
+          <div className="pt-5 border-t border-[#E8DED0]/70 flex items-center gap-3.5">
+            <div className="w-11 h-11 rounded-2xl bg-[#C46A3A]/10 border border-[#C46A3A]/20 flex items-center justify-center text-[#C46A3A] font-serif font-bold text-base shadow-xs">
+              S
+            </div>
+            <div>
+              <span className="block font-serif font-bold text-[#171717] text-base sm:text-lg">
+                Sanjaykumar Suryawanshi
+              </span>
+              <span className="block text-xs sm:text-sm text-[#171717]/60 font-medium">
+                Owner, Ocean Kitchen &amp; Interior
+              </span>
+            </div>
+          </div>
+        </div>
+
         {/* Layered CTA Card */}
         <div className="bg-[#171717] text-[#F7F3EC] border border-white/10 rounded-3xl p-9 sm:p-14 text-center shadow-[0_20px_50px_rgba(23,23,23,0.15)] relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#C46A3A]/10 rounded-full blur-3xl pointer-events-none" />

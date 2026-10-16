@@ -35,6 +35,11 @@ export const BUSINESS_INFO = {
   },
   description:
     'Ocean Kitchen & Interior provides complete interior solutions and furniture work in Dhayari, Pune. Backed by 20+ years of hardworking experience, we bring your ideas to life.',
+  owner: {
+    name: 'Sanjaykumar Suryawanshi',
+    role: 'Owner',
+    credit: 'Owned by Sanjaykumar Suryawanshi',
+  },
   philosophy:
     'We believe every space is unique and should reflect the people who use it. With over 20 years of hands-on experience, we give 101% commitment to understand your ideas and fulfill your expectations through practical, beautiful spaces.',
 } as const;
