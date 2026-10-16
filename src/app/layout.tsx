@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/layout/Footer';
-import FloatingWhatsApp from '@/components/ui/FloatingWhatsApp';
+import FloatingInstagram from '@/components/ui/FloatingInstagram';
 import { BUSINESS_INFO } from '@/lib/contact';
 import './globals.css';
 
@@ -65,7 +65,7 @@ export default function RootLayout({
         <Navbar />
         <div className="flex-1 w-full">{children}</div>
         <Footer />
-        <FloatingWhatsApp />
+        <FloatingInstagram />
       </body>
     </html>
   );
